@@ -1,7 +1,3 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
 /* 
     Created on : 19 feb. 2024, 11:12:25
     Author     : hecto
@@ -35,6 +31,10 @@ font-size: 75px;
      padding-top: 190px;
      padding-bottom: 140px;
 }
+.Aboutme p {
+    font-size: 38px; 
+    color: #DEDEDE;
+}
 .distance_hr{
     padding-top:75px; 
     padding-bottom: 75px;
@@ -44,6 +44,10 @@ font-size: 75px;
 }
 .feature{
     padding-top: 75px;
+}
+.feature_p{
+    font-size: 38px;
+  color: #DEDEDE;
 }
 .textop{
     color: #DEDEDE;
@@ -101,13 +105,72 @@ font-size: 75px;
   right: 45px;
   font-size: 60px;
 }
+.overlay_title{
+    font-size: 38px;
+}
 
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+@media (max-width: 575.98px) {
+  .overlay {
+overflow-y: auto;
+}
+.overlay-content {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+  .overlay a {
+font-size: 20px
+}
+ .overlay p {
+font-size: 16px
+}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
   }
 }
+/* Small devices ()*/
+@media (max-width: 575.98px){ 
+    .Aboutme p {
+        font-size: 22px; 
+        color: #DEDEDE;
+    }
+.title_one{
+font-size: 38px;
+}
+.title_one h1{
+font-size: 38px;
+}
+.titulo{
+     padding-top: 100px;
+     padding-bottom: 0;
+}
+.titulo_portfolio{
+     padding-top: 100px;
+     padding-bottom: 70px;
+}
+.distance_hr{
+    padding-top:38px; 
+    padding-bottom: 38px;
+}
+
+.feature{
+    padding-top: 38px;
+}
+.feature_p{
+    font-size: 22px;
+  color: #DEDEDE;
+}
+.company h3{
+   font-size: 16px;
+}
+.company p{
+    font-size: 12px;
+}
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
